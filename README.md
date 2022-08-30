@@ -63,17 +63,6 @@
         <strong>Special thanks to:</strong>
     </p>
     <p>
-        <a href="https://oss.capital/">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
-            </div>
-            <div>
-                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
-            </div>
-        </a>
-    </p>
-    <br />
-    <p>
         <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
             <div>
                 <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
@@ -269,31 +258,36 @@ If you're open in a code editor that understands markdown, you'll see everything
 
 Create a new branch so you can check items like this, just put an x in the brackets: [x]
 
-    Fork a branch and follow the commands below
+1. ***Fork the GitHub repo:*** `https://github.com/jwasham/coding-interview-university` by clicking on the Fork button.
 
-Fork the GitHub repo https://github.com/jwasham/coding-interview-university by clicking on the Fork button.
+    ![Fork the GitHub repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
 
-Clone to your local repo:
+1. Clone to your local repo:
 
+    ```
     git clone git@github.com:<your_github_username>/coding-interview-university.git
     cd coding-interview-university
     git checkout -b progress
     git remote add jwasham https://github.com/jwasham/coding-interview-university
     git fetch --all
+    ```
 
-Mark all boxes with X after you completed your changes:
+1. Mark all boxes with X after you completed your changes:
 
+    ```
     git add .
     git commit -m "Marked x"
     git rebase jwasham/main
     git push --set-upstream origin progress
     git push --force
+    ```
 
 ## Don't feel you aren't smart enough
 
 - Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- Following videos may help you overcome this insecurity:
+    - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
+    - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## A Note About Video Resources
 
@@ -336,6 +330,7 @@ You may not need it, but here are some sites for learning a new language:
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 - [Codechef](https://www.codechef.com/)
 - [Codeforces](https://codeforces.com/)
+- [Scaler Topics](https://www.scaler.com/topics/)
 
 ### For your Coding Interview
 
@@ -449,7 +444,7 @@ Make your own for free:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
 
-**I DON'T RECOMMEND using my flashcards.** There are too many and many of them are trivia that you don't need.
+**I DON'T RECOMMEND using my flashcards.** There are too many and most of them are trivia that you don't need.
 
 But if you don't want to listen to me, here you go:
 - [My flash cards database (1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
@@ -577,6 +572,8 @@ Challenge sites:
 - [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
 - [InterviewBit](https://www.interviewbit.com/)
 - [Project Euler](https://projecteuler.net/)
+- [AlgoExpert](https://www.algoexpert.io/product)
+    - Created by Google engineers, this is also an excellent resource to hone your skills.
 
 ## Let's Get Started
 
@@ -650,7 +647,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] Linked List vs Arrays:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
-    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [ ] [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
@@ -1185,7 +1182,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - The first half is enough.
 
 - ### Networking
-    - **if you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
+    - **If you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
     - Otherwise, this is just good to know
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/code-org/computers-and-the-internet)
     - [ ] [UDP and TCP: Comparison of Transport Protocols (video)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
